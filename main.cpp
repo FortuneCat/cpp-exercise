@@ -1,19 +1,18 @@
 #include <iostream>
 #include "quiz/knight.h"
+#include "template/complex.hpp"
+#include "datastructure/tree.hpp"
 
 using namespace std;
 
 int main() {
-//    Complex<int> c1(1,2);
-//    Complex<int> c2(3,4);
-//
-//    Complex<int> c = c1 + c2;
-//
+
+    Tree<int> tree;
 //    cout<<c<<endl;
-    Knight knight;
+//    Knight knight;
 //    knight.RunTestFromAllInitPositions();
-    Step init = Step(7, 2);
-    knight.Traverse(init);
+//    Step init = Step(7, 2);
+//    knight.Traverse(init);
 
     return 0;
 }

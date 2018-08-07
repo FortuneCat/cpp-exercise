@@ -1,5 +1,5 @@
 //
-// Created by Administrator on 2018-08-05.
+// Created by yingly on 2018-08-05.
 //
 
 #include "tree.h"
@@ -9,7 +9,7 @@ template<typename T>
 Tree<T>::Tree() {
     root = new Node<T>();
     root->parent = NULL;
-    root->value = NULL;
+    root->value = 0;
 }
 
 template<typename T>
